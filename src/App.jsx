@@ -7,7 +7,7 @@ function App() {
   useEffect(() => {
     const redirectTimer = setTimeout(() => {
       window.location.href = targetUrl;
-    }, 10000);
+    }, 5000);
 
     // Cleanup the timer if the component unmounts early
     return () => clearTimeout(redirectTimer);
@@ -17,6 +17,7 @@ function App() {
   const handleRedirect = () => {
     window.location.href = targetUrl;
   };
+
   return (
     <>
       <div className="bg-slate-100 min-h-screen flex items-center justify-center p-4">
