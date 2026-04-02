@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 
 function App() {
-  const targetUrl = "https://clatcoachingdelhi.com/";
+  const targetUrl = "https://lptdelhincr.com/";
 
   // Automatically redirect after 5 seconds
   useEffect(() => {
